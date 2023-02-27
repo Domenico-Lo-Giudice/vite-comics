@@ -50,5 +50,6 @@ header {
 ul li {
   display: inline-block;
   margin: 0 0.5rem;
+  font-weight: bold;
 }
 </style>

@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <footer>
+  <footer class="upperFooter">
     <div class="container">
       <!-- Prima lista -->
       <div>
@@ -64,15 +64,61 @@ export default {
       <!-- Terza lista -->
     </div>
   </footer>
+
+  <footer class="bottomFooter">
+    <div class="container">
+      <div>
+        <button class="btn-footer">SIGN-UP NOW !</button>
+      </div>
+      <div class="IconsFooter">
+        <ul>
+          <li class="follow-us">FOLLOW US</li>
+          <li>
+            <img
+              src="../assets/img/footer-facebook.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="../assets/img/footer-twitter.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="../assets/img/footer-youtube.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="../assets/img/footer-pinterest.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="../assets/img/footer-periscope.png"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
-footer {
+/* UpperFooter */
+.upperFooter {
   background-image: url(../assets/img/footer-bg.jpg);
   background-position: center;
   background-size: cover;
+}
 
-  color: white;
+.upperFooter ul {
+  color: grey;
 }
 .container {
   display: flex;
@@ -85,13 +131,46 @@ footer {
 
 h4 {
   margin-bottom: 10px;
+  color: white;
 }
 
-div * {
+.upperFooter div * {
   padding-bottom: 10px;
 }
 
 .TitleUlFooter {
   font-size: 20px;
 }
+
+/* Bottom Footer */
+.bottomFooter {
+  background-color: #303030;
+}
+
+.follow-us {
+  color: #0282f9;
+  font-weight: bold;
+}
+
+.bottomFooter ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+.bottomFooter .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.btn-footer {
+  background-color: transparent;
+  border: solid #0282f9;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Bottom Footer */
 </style>

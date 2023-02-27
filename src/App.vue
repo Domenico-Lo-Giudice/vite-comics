@@ -2,6 +2,7 @@
 // import componenti
 import AppHeader from "./components/AppHeader.vue";
 import AppContent from "./components/AppContent.vue";
+import AppIconsContent from "./components/AppIconsContent.vue";
 import AppFooter from "./components/AppFooter.vue";
 
 //definizione componenti
@@ -15,6 +16,7 @@ export default {
   components: {
     AppHeader,
     AppContent,
+    AppIconsContent,
     AppFooter,
   },
 };
@@ -23,6 +25,7 @@ export default {
 <template>
   <AppHeader />
   <AppContent />
+  <AppIconsContent />
   <AppFooter />
 </template>
 
