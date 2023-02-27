@@ -6,6 +6,12 @@ import AppFooter from "./components/AppFooter.vue";
 
 //definizione componenti
 export default {
+  data() {
+    return {
+      title: "ViteComics",
+    };
+  },
+
   components: {
     AppHeader,
     AppContent,
@@ -20,4 +26,4 @@ export default {
   <AppFooter />
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

@@ -1,4 +1,12 @@
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      title: "Header",
+    };
+  },
+};
+</script>
 
 <template>
   <div>HEADER</div>
