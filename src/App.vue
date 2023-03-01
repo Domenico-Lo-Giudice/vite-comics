@@ -24,7 +24,7 @@ export default {
 
 <template>
   <AppHeader />
-  <AppContent />
+  <AppContent products="products" />
   <AppIconsContent />
   <AppFooter />
 </template>
